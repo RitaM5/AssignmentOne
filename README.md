@@ -24,8 +24,8 @@ Provide an example of using union and intersection types in TypeScript?
 ইউনিয়ন মানে একটা ভেরিয়েবল মাল্টিপল টাইপ এর যেকোনো কিছু হতে পারে । যেমন,
 
 type ColorRole = "yellow" | "green";
-
-const getDashboard = (role: ColorRole) => {
+---
+## const getDashboard = (role: ColorRole) => {
   if (role === "yellow") {
     return "sent him yellow t-shirt";
   } else if (role === "green") {
@@ -34,7 +34,7 @@ const getDashboard = (role: ColorRole) => {
     return "not available";
   }
 };
-
+---
 getTshirt("green");
 
 
